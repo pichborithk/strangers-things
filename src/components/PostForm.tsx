@@ -1,6 +1,6 @@
-import { PostFromProps } from '../types/types';
+import { PostFormProps } from '../types/types';
 
-const PostForm = (props: PostFromProps) => {
+const PostForm = (props: PostFormProps) => {
   const {
     title,
     setTitle,
