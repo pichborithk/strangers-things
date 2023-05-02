@@ -93,7 +93,7 @@ export type ViewPostContext = {
   setIsEditing: Dispatch<SetStateAction<boolean>>;
 };
 
-export type PostFromProps = {
+export type PostFormProps = {
   title: string;
   setTitle: Dispatch<SetStateAction<string>>;
   description: string;
